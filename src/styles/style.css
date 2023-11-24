@@ -10,11 +10,16 @@
 
 /* ========== tailwind custom styles ========== */
 @layer components {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-light dark:bg-dark;
   }
   .container {
-    @apply max-w-[1112px] mx-auto px-4;
+    max-width: 1112px;
+    margin: 0 auto;
+    padding: 2rem;
   }
   h1,
   h2,
