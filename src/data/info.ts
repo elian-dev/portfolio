@@ -6,10 +6,10 @@ export const info = {
 	I enjoy creating things that live on the internet, whether websites, applications, or anything in between.
 	I have worked for 5 years in this industry, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
 	</br></br>
-	I have 5 years of experience in HTML, CSS, SCSS, JavaScript, Typescript, Bootstrap, Tailwind CSS, and React JS. Hence, I have successfully completed several web projects and web applications from scratch. 
+	I have experience in HTML, CSS, SCSS, JavaScript, Typescript, Bootstrap, Tailwind CSS, Vue.js, Next.js and React JS. Hence, I have successfully completed several web projects and web applications from scratch. 
 	</br></br>
 	Yet, I learn continuously and never stop exploring new technologies.
-	So, I have also gained knowledge of SQL, Mongo DB, Node JS, Express JS, Vue.js, Next JS, Astro.build, PHP, Python, firebase, and React Native with time.
+	So, I have also gained knowledge of SQL, Mongo DB, Node JS, Express JS, Astro.build, PHP, Python, firebase, and React Native with time.
 	</br></br>
 	As a freelancer, I have made backend projects, frontend, API's and UI/UX designs.
   `,
