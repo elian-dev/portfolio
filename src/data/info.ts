@@ -28,7 +28,7 @@ export const info = {
 		},
 
 		{
-			name: "Almacenes SIMAN (hybrid)",
+			name: "Almacenes SIMAN (Hybrid)",
 			location: "San Salvador, El Salvador",
 			startDate: "Jul 2020",
 			endDate: "Mar 2023",
@@ -75,11 +75,39 @@ export const info = {
 
 	projects: [
 		{
-			title: "Astro Portfolio",
+			title: "Shortly - Shorter Links",
 			isFeatured: true,
-			thumbnail: "/assets/images/astro-portfolio.png",
-			githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-			liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+			thumbnail: "/assets/images/shortly.png",
+			githubUrl: "https://github.com/elian-dev/short-url-api-landing",
+			liveUrl: "https://shortly-urls.vercel.app/",
+		},
+		{
+			title: "Ecommerce Dashboard",
+			isFeatured: true,
+			thumbnail: "/assets/images/admin-ecommerce.png",
+			githubUrl: "https://github.com/elian-dev/ecommerce-admin",
+			liveUrl: "https://saas-ecommerce-admin.vercel.app/",
+		},
+		{
+			title: "Ecommerce Store",
+			isFeatured: true,
+			thumbnail: "/assets/images/ecommerce-store.png",
+			githubUrl: "https://github.com/elian-dev/ecommerce-store",
+			liveUrl: "https://ecommerce-store-rho-lovat.vercel.app/",
+		},
+		{
+			title: "Sunny Side Agency",
+			isFeatured: true,
+			thumbnail: "/assets/images/sunny-side-landing.png",
+			githubUrl: "https://github.com/elian-dev/sunny-agency-landing-page",
+			liveUrl: "https://sunny-agency-landing-page-5p6b.vercel.app/",
+		},
+		{
+			title: "Todo List Vue.js",
+			isFeatured: false,
+			thumbnail: "/assets/images/todolist-vue.png",
+			githubUrl: "https://github.com/elian-dev/todo-list-vuejs",
+			liveUrl: "https://todo-list-vuejs-ruby.vercel.app/",
 		},
 	],
 };
