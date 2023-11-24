@@ -1,97 +1,85 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+	baseUrl: "https://astro-portfolio-uzair.vercel.app",
+	name: "Geordy Elian Reyes",
+	jobDescription: "Web Developer",
+	about: `I'm a full-stack developer based in El Salvador.
+	I enjoy creating things that live on the internet, whether websites, applications, or anything in between.
+	I have worked for 5 years in this industry, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
+	</br></br>
+	I have 5 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, Astro.js, Vue.js, React JS, and Next JS. Hence, I have successfully completed several web projects and web applications from scratch. 
+	</br></br>
+	Yet, I learn continuously and never stop exploring new technologies.
+	So, I have also gained knowledge of SQL, Node JS, Express JS, Mongo DB, PHP, Python, firebase, and React Native with time.
+	</br></br>
+	As a freelancer, I have made backend projects, frontend, API's and UI/UX designs.
   `,
+	experience: [
+		{
+			name: "J&D Outstanding Technologies, LLC (Remote)",
+			location: "Grand Prairie, Texas",
+			startDate: "Apr. 2023",
+			endDate: "Present",
+			description: [
+				"- Developing websites with Astro.build using TypeScript.",
+				"- Creating responsive screens and intricate UI components with HTML, TypeScript, and CSS.",
+				"- Designing UI/UX projects using Figma to ensure a seamless and visually appealing user experience.",
+				"- Collaborating on the development of end-to-end tests using Cypress to maintain high-quality code and performance.",
+			],
+		},
 
-  experience: [
-    {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
-      description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
-      ],
-    },
+		{
+			name: "Almacenes SIMAN (hybrid)",
+			location: "San Salvador, El Salvador",
+			startDate: "Jul 2020",
+			endDate: "Mar 2023",
+			description: [
+				"- Proficient in E-Commerce platform management and content handling.",
+				"- Implementation of new features using VTEXIO with React.js, Tailwind, and SASS to enhance platform functionality.",
+				"- Development of solutions and API integrations to optimize and benefit business operations.",
+				"- Diligent validation of content quality and user experience for optimal customer satisfaction.",
+				"- Creation of internal applications using Strapi, Node.js, Cypress and Vue.js to support internal processes.",
+			],
+		},
 
-    {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
-      description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
-      ],
-    },
+		{
+			name: "Consultoría y Servicios - C&S",
+			location: "Antiguo Cuscatlán, La Libertad, El Salvador",
+			startDate: "Oct 2019",
+			endDate: "Jul 2020",
+			description: [
+				"- Proficient in CMS E-Commerce with a focus on Magento.",
+				"- Weekly content updates and planning on the website, involving PHP, HTML, CSS, and JS.",
+				"- Rigorous review of product listings for quality assurance, organizational structure, and catalog integrity.",
+				"- Collaborative involvement in the implementation of a new E-Commerce platform.",
+			],
+		},
+	],
 
-    {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
-      description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
-      ],
-    },
-  ],
+	education: [
+		{
+			name: "Development Software Center (CDS)",
+			location: "San Salvador, El Salvador",
+			startDate: "2018",
+			endDate: "2019",
+			description: ["Technical Degree as a Programming Analyst in PHP."],
+		},
+	],
 
-  education: [
-    {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
-      description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
-      ],
-    },
-    {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
-    },
-  ],
+	socialMedia: {
+		instagram: "https://www.instagram.com/geordymemdoza/",
+		github: "https://github.com/elian-dev",
+		email: "mailto:geordymemdoza@gmail.com",
+		figma: "https://www.figma.com/@ELIANDEV",
+		linkedin: "https://www.linkedin.com/in/eliandev/",
+	},
 
-  socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "mailto:uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
-  },
-
-  projects: [
-    {
-      title: "Astro Portfolio",
-      isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
-    },
-  ],
+	projects: [
+		{
+			title: "Astro Portfolio",
+			isFeatured: true,
+			thumbnail: "/assets/images/astro-portfolio.png",
+			githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+			liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+		},
+	],
 };
