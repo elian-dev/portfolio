@@ -109,5 +109,12 @@ export const info = {
 			githubUrl: "https://github.com/elian-dev/todo-list-vuejs",
 			liveUrl: "https://todo-list-vuejs-ruby.vercel.app/",
 		},
+		{
+			title: "Suscribe Multiform",
+			isFeatured: false,
+			thumbnail: "/assets/images/multiform.png",
+			githubUrl: "https://github.com/elian-dev/multi-step-form-main",
+			liveUrl: "https://multi-step-form-main-dusky.vercel.app/",
+		},
 	],
 };
