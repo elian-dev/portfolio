@@ -5,6 +5,12 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
   site: "https://astro-portfolio-uzair.vercel.app",
   integrations: [
     tailwind(),
